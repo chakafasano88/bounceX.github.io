@@ -549,6 +549,7 @@ i {
       font-size: .7em;
       font-size-adjust: .43;
       padding-bottom: 5px;
+      background-color: red;
     }
 
     #show-links {
