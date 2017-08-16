@@ -466,16 +466,14 @@ i {
     /* BLOCK 4 */
     .three-blocks-flex{
       width: 80%;
+      height: 100%;
       display: flex;
       flex-direction: column;
       align-items: center;
       border: 1px solid red;
       box-shadow: 1px 1px 1px grey;
       margin-bottom: 3%;
-    }
-
-    .three-blocks-flex2 {
-      border: 1px solid red;
+      padding: 5px 5px 5px 5px;
 
     }
 
