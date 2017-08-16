@@ -332,6 +332,11 @@ i {
       justify-content: center;
     }
 
+    .all-content-container{
+      width: 90%;
+      padding-bottom: 20px;
+    }
+
     .all-content-container {
       display: flex;
       flex-direction: column;
@@ -344,6 +349,7 @@ i {
       max-width: inherit;
       width: 80%;
       box-shadow: 1px 1px 1px grey;
+      margin: 2%;
 
     }
 
@@ -378,6 +384,8 @@ i {
       height: 100%;
       box-shadow: 1px 1px 1px grey;
       padding: 5px 5px 5px 5px;
+      margin: 2%;
+
     }
 
     .main-content-text-container{
@@ -449,7 +457,7 @@ i {
       padding-top: 5px;
       padding-bottom: 5px;
       box-shadow: 1px 1px 1px grey;
-      margin-bottom: 3%;
+      margin: 2%;
     }
 
     .underline {
@@ -472,7 +480,7 @@ i {
       align-items: center;
       border: 1px solid red;
       box-shadow: 1px 1px 1px grey;
-      margin-bottom: 3%;
+      margin: 2%;
       padding: 5px 5px 5px 5px;
 
     }
@@ -514,7 +522,7 @@ i {
       flex-direction: column;
       border-bottom: 1px solid gray;
       box-shadow: 1px 1px 1px grey;
-      margin-bottom: 3%;
+      margin: 2%;
       border: 1px solid red;
     }
 
@@ -524,12 +532,14 @@ i {
 
   /* BLOCK 6 */
     .show-hide-bottom-mobile-nav-container1{
-      width: 95%;
+      width: 101%;
       display: flex;
       justify-content: center;
       font-size: .8em;
       font-size-adjust: .43;
       padding-bottom: 10px;
+      margin: 2%;
+
     }
 
     .show-hide-bottom-mobile-nav-container2{
@@ -582,6 +592,8 @@ i {
       box-shadow: 1px 1px 1px grey;
       padding: 5px 5px 5px 5px;
       border: 1px solid red;
+      margin: 2%;
+
     }
 
     .footer-text-container {
@@ -589,11 +601,6 @@ i {
       font-size-adjust: .75;
       font-family: "Noto Sans","Helvetica Neue";
 
-    }
-
-    .all-content-container{
-      width: 90%;
-      padding-bottom: 20px;
     }
 
   }
