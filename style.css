@@ -113,10 +113,10 @@ a {
 }
 
 .main-content-text-container {
-  position: relative;
-  top: 8%;
   border: 1px solid red;
   padding: 5px 5px 5px 5px;
+  margin-top: 5%;
+  margin-bottom: 10%;
 }
 
 /* Access font file .otf */
@@ -381,14 +381,18 @@ i {
   /* BLOCK 2 */
     .main-content-container {
       width: 88%;
+      height: auto;
       box-shadow: 1px 1px 1px grey;
       padding: 5px 5px 5px 5px;
       margin: 2%;
+      height: fit-content;
 
     }
 
     .main-content-text-container{
       text-align: center;
+      border: 1px solid red;
+      padding: 5px 5px 5px 5px;
     }
 
     .top-nav-flex {
