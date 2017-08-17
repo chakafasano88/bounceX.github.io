@@ -563,11 +563,30 @@ i {
 
     .icon-flex {
       width: 72%;
+      padding: 15px 8px 15px 8px;
       display: flex;
       justify-content: center;
       justify-content: space-between;
       color: white;
       margin: auto;
+    }
+
+    .icon-style {
+      background-color: rgb(44,106,138);
+      border: rgb(44,106,138);
+      border-radius: 25px;
+      padding: 10px 10px 20px 22px;
+      max-width: inherit;
+      width: 10px;
+      height: 10px;
+      font-size: 22px;
+      margin-left: 1%;
+    }
+
+    .fa-pinterest-p:before {
+      position: relative;
+      right: 3px;
+      font-size: 25px;
     }
 
   /* BLOCK 7 */
