@@ -103,6 +103,7 @@ a {
 /* ======== BEGIN MAIN CONTENT CONTAINER (BLOCK 3) ======== */
 /* main container for tagline, button, and reminder to purchase */
 .main-content-container {
+  background-color: red;
   max-width: inherit;
   padding: 35px;
   margin-bottom: 10px;
@@ -376,7 +377,7 @@ i {
     }
 
     #company-logo {
-      width: 60%;
+      width: 65%;
     }
   /* BLOCK 2 */
     .main-content-container {
