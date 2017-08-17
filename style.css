@@ -103,7 +103,6 @@ a {
 /* ======== BEGIN MAIN CONTENT CONTAINER (BLOCK 3) ======== */
 /* main container for tagline, button, and reminder to purchase */
 .main-content-container {
-  background-color: red;
   max-width: inherit;
   padding: 35px;
   margin-bottom: 10px;
@@ -118,6 +117,8 @@ a {
   padding: 5px 5px 5px 5px;
   margin-top: 5%;
   margin-bottom: 10%;
+  background-color: red;
+
 }
 
 /* Access font file .otf */
@@ -293,9 +294,9 @@ i {
   margin-left: 1%;
 }
 
-.fa-instagram:before {
+.fa-instagram:before, .fa-twitter:before {
   position: relative;
-  right: 3px;
+  right: 6px;
   font-size: 27px;
 }
 /* ====== END BOTTOM NAV CONTAINER (BLOCK 5) ========  */
@@ -404,7 +405,7 @@ i {
     h1 {
       color: rgb(44,106,138);
       font-family: 'Prumo Banner Light';
-      font-size: 1.7em;
+      font-size: 1.6em;
       font-size-adjust: 0.35;
       width: 100%;
     }
