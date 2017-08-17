@@ -620,7 +620,7 @@ i {
 
 /* TABLETS IPADS */
 @media only screen
-  and (min-width: 680px)
+  and (min-width: 681px)
   and (max-width : 1024px) {
 
     .main-content-container {
@@ -639,9 +639,10 @@ i {
       max-width: inherit;
       max-height: inherit;
       width: 80%;
-      height: 80%;
+      height: 100%;
       padding: 5px 5px 5px 5px;
       text-align: center;
+      border: 1px solid red;
     }
 
     h1 {
@@ -655,7 +656,7 @@ i {
     #reminder-text{
       width: 58%;
       margin-top: 5%;
-      margin-right: 40%;
+      margin-right: 32%;
       color: #817B73;
       font-size: 1em;
     }
@@ -670,9 +671,10 @@ i {
       background-color: rgb(44,106,138);
       border: rgb(44,106,138);
       border-radius: 2px;
-      width: 45%;
+      width: 50%;
       margin-top: 5%;
       font-size: 1em;
+      padding: 10px;
       font-weight: bold;
       font-family: cursive;
       color: white;
