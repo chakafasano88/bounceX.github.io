@@ -115,8 +115,6 @@ a {
   padding: 5px 5px 5px 5px;
   margin-top: 5%;
   margin-bottom: 10%;
-  background-color: red;
-
 }
 
 /* Access font file .otf */
@@ -401,12 +399,12 @@ i {
 
     /* Styling for reminder text */
     #reminder-text{
-      width: 66%;
+      width: 70%;
       margin-left: 15%;
       margin-right: 15%;
       margin-top: 5%;
       color: #817B73;
-      font-size: .7em;
+      font-size: .62em;
       font-size-adjust: 0.45;
     }
     /* make last few words starting with "before" black and bold */
@@ -424,7 +422,7 @@ i {
       background-color: rgb(44,106,138);
       border: rgb(44,106,138);
       border-radius: 2px;
-      width: 70%;
+      width: 65%;
       padding: 5px;
       margin-top: 20px;
       font-size: .8em;
