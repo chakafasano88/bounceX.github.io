@@ -402,7 +402,7 @@ i {
 
     /* Styling for reminder text */
     #reminder-text{
-      width: 70%;
+      width: 63%;
       margin-left: 15%;
       margin-right: 15%;
       margin-top: 5%;
@@ -572,7 +572,7 @@ i {
 
   /* BLOCK 7 */
     .footer-container {
-      max-width: 88%;
+      max-width: 90%;
       font-size: .4em;
       padding-bottom: 10px;
       padding-right: 5px;
@@ -594,7 +594,7 @@ i {
 
 /* TABLETS IPADS */
 @media only screen
-  and (min-width: 681px)
+  and (min-width: 680px)
   and (max-width : 1024px) {
 
     .main-content-container {
@@ -615,7 +615,7 @@ i {
       width: 80%;
       height: 80%;
       padding: 5px 5px 5px 5px;
-
+      text-align: center;
     }
 
     h1 {
@@ -627,7 +627,7 @@ i {
 
     /* Styling for reminder text */
     #reminder-text{
-      width: 45%;
+      width: 58%;
       margin-top: 5%;
       margin-right: 40%;
       color: #817B73;
