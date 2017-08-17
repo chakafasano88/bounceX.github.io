@@ -133,10 +133,10 @@ h1 {
 
 /* Styling for reminder text */
 #reminder-text{
-  width: 27%;
-  margin-left: 37%;
+  width: 39%;
+  margin-left: 30%;
   color: #817B73;
-  font-size: 1.1em;
+  font-size: 1.3em;
   margin-bottom: 2%;
 
 }
@@ -155,10 +155,10 @@ button{
   background-color: rgb(44,106,138);
   border: rgb(44,106,138);
   border-radius: 2px;
-  width: 23%;
+  width: 30%;
   padding: 12px;
   margin-top: 28px;
-  font-size: 1.2em;
+  font-size: 1.5em;
   font-weight: bold;
   font-family: cursive;
   color: white;
@@ -438,6 +438,7 @@ i {
       font-family: cursive;
       color: white;
     }
+
 
     button:focus {
       outline:none;
