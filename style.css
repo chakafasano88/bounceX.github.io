@@ -405,14 +405,14 @@ i {
     h1 {
       color: rgb(44,106,138);
       font-family: 'Prumo Banner Light';
-      font-size: 1.6em;
+      font-size: 1.70em;
       font-size-adjust: 0.35;
       width: 100%;
     }
 
     /* Styling for reminder text */
     #reminder-text{
-      width: 86%;
+      width: 66%;
       margin-left: 15%;
       margin-right: 15%;
       margin-top: 5%;
@@ -646,7 +646,7 @@ i {
 
     /* Styling for reminder text */
     #reminder-text{
-      width: 60%;
+      width: 45%;
       margin-top: 5%;
       margin-right: 40%;
       color: #817B73;
