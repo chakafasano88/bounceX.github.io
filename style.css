@@ -114,7 +114,7 @@ a {
 
 .main-content-text-container {
   padding: 5px 5px 5px 5px;
-  margin-top: 5%;
+  margin-top: 3%;
   margin-bottom: 10%;
 }
 
@@ -127,15 +127,18 @@ a {
 h1 {
   color: rgb(44,106,138);
   font-family: 'Prumo Banner Light';
-  font-size: 3.2em;
+  font-size: 3.8em;
+  margin-bottom: 2%;
 }
 
 /* Styling for reminder text */
 #reminder-text{
-  width: 25%;
+  width: 27%;
   margin-left: 37%;
   color: #817B73;
-  font-size: .9em;
+  font-size: 1.1em;
+  margin-bottom: 2%;
+
 }
 /* make last few words starting with "before" black and bold */
 #reminder-black{
@@ -152,8 +155,8 @@ button{
   background-color: rgb(44,106,138);
   border: rgb(44,106,138);
   border-radius: 2px;
-  width: 25%;
-  padding: 10px;
+  width: 23%;
+  padding: 12px;
   margin-top: 28px;
   font-size: 1.2em;
   font-weight: bold;
@@ -743,3 +746,110 @@ i {
 
     }
 }
+/* ======== DESKTOPS over 1280px ====== */
+@media only screen
+  and (min-width: 1281px)
+  and (max-width : 1600px) {
+
+    /* flex container for nav bar element positioning */
+    .top-nav-flex{
+      max-width: inherit;
+      display: flex;
+      justify-content: center;
+      justify-content: space-around;
+      border-bottom: 1px solid gray;
+      border-top: 1px solid gray;
+      padding-top: 5px;
+      padding-bottom: 5px;
+      margin-top: 1%;
+      font-size: 1.7em;
+    }
+
+    /* The text "view in browser" */
+    #view-in-browser {
+      color: rgb(44,106,138);
+      font-size: .7em;
+      font-size-adjust: 1;
+    }
+    /* The text "take a look" */
+    #take-a-look {
+      font-size: .7em;
+      font-size-adjust: 1;
+    }
+
+    .main-content-container {
+      max-width: inherit;
+      padding: 35px;
+      margin-bottom: 10px;
+      text-align: center;
+      height: 550px;
+      background-color: rgb(245,245,242);
+      margin-top: 10px;
+    }
+
+    .main-content-text-container {
+      padding: 5px 5px 5px 5px;
+      margin-top: 5%;
+      margin-bottom: 10%;
+    }
+
+    h1 {
+      color: rgb(44,106,138);
+      font-family: 'Prumo Banner Light';
+      font-size: 5em;
+    }
+
+    /* Styling for reminder text */
+    #reminder-text{
+      width: 30%;
+      margin-left: 35%;
+      color: #817B73;
+      font-size: 1.6em;
+    }
+    /* make last few words starting with "before" black and bold */
+    #reminder-black{
+      font-weight: bold;
+      color: black;
+    }
+    /* flex container for reminder */
+    .reminder-text-flex{
+      display: flex;
+      justify-content: center;
+    }
+    /* THE BUTTON! */
+    button{
+      background-color: rgb(44,106,138);
+      border: rgb(44,106,138);
+      border-radius: 2px;
+      width: 25%;
+      padding: 10px;
+      margin-top: 28px;
+      font-size: 1.7em;
+      font-weight: bold;
+      font-family: cursive;
+      color: white;
+    }
+
+    button:focus {
+      outline: none;
+    }
+
+    button:active {
+      box-shadow: 0 1px #666;
+      transform: translateY(1px);
+    }
+    /* ======= END MAIN CONTENT CONTAINER ==========  */
+
+    .image-block-flex {
+      max-width: 100%;
+      width: 100%;
+      display: inline-flex;
+      justify-content: flex-start;
+      justify-content: space-between;
+      padding: 10px 0px 10px 0px;
+      border-top: 1px solid gray;
+      border-bottom: 1px solid gray;
+      overflow: auto;
+    }
+
+  }
