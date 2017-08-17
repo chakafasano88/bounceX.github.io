@@ -18,7 +18,7 @@ body {
   margin-right: 3%;
 }
 
-/* Parent container for all content */
+/* PARENT container for all content */
 .all-content-container {
   max-width: 100%;
 }
@@ -31,7 +31,7 @@ body {
   display: flex;
   flex-direction: column;
 }
-/* Contains divs for "tale a look" and "view in browser" */
+/* Contains divs for "take a look" and "view in browser" */
 .flex-container-parent {
   display: flex;
   justify-content: flex-start;
@@ -48,13 +48,13 @@ body {
   display: flex;
   justify-content: flex-end;
 }
-
+/* The text "view in browser" */
 #view-in-browser {
   color: rgb(44,106,138);
   font-size: .3em;
   font-size-adjust: 1;
 }
-
+/* The text "take a look" */
 #take-a-look {
   font-size: .3em;
   font-size-adjust: 1;
@@ -81,11 +81,11 @@ body {
   padding-top: 5px;
   padding-bottom: 5px;
 }
-/* Nav bar for mobile */
+/* Hides MOBILE nav bar*/
 .mobile-top-nav-flex {
   display: none;
 }
-/* list of main nav bar links */
+/* list of DESKTOP nav bar links */
 li {
   list-style: none;
 }
@@ -97,9 +97,10 @@ a:link {
 a {
   color: #817B73;
 }
-/* END NAV BAR */
+/* ======= END NAV BAR ========== */
 
 /* ======== BEGIN MAIN CONTENT CONTAINER (BLOCK 3) ======== */
+
 /* main container for tagline, button, and reminder to purchase */
 .main-content-container {
   max-width: inherit;
@@ -160,18 +161,19 @@ button{
 }
 
 button:focus {
-  outline:none;
+  outline: none;
 }
 
 button:active {
   box-shadow: 0 1px #666;
   transform: translateY(1px);
 }
-/* ======= END MAIN CONTENT CONTAINER  */
+/* ======= END MAIN CONTENT CONTAINER ==========  */
 
 /* ======= START IMAGES CONTAINER (BLOCK 4) ======= */
+
 /* Image blocks flex container */
-.three-blocks-flex{
+.image-block-flex{
   max-width: 100%;
   display: inline-flex;
   justify-content: flex-start;
@@ -186,7 +188,7 @@ img {
   width: inherit;
   height: inherit;
 }
-
+/* Image 1 */
 .block-1 {
   max-width: inherit;
   width: 100%;
@@ -194,7 +196,7 @@ img {
 
 }
 
-
+/* Image 2 */
 .block-2 {
   max-width: inherit;
   width: 100%;
@@ -203,6 +205,7 @@ img {
 
 }
 
+/* Image 3 */
 .block-3 {
   max-width: inherit;
   width: 100%;
@@ -212,7 +215,6 @@ img {
 }
 
 /* ======= END IMAGES CONTAINER (BLOCK 4) =======  */
-
 
 /* ====== BEGIN BOTTOM NAV CONTAINER (BLOCK 5) ======== */
 .bottom-nav-container {
@@ -237,8 +239,8 @@ img {
   margin-left: 3%;
 
 }
-
-#nav-dividers-desktop {
+/* Divider lines */
+#desktop-nav-dividers {
   margin-left: 15px;
   margin-right: 15px;
 }
@@ -246,7 +248,7 @@ img {
 #mobile-nav-dividers {
   display: none;
 }
-
+/* Hides tablet nav bar */
 .show-hide-tablet {
   display: none;
 }
@@ -265,6 +267,7 @@ i {
   color: white;
 }
 
+/* positions icons */
 .fa {
   position: relative;
   bottom: 4px;
@@ -282,7 +285,7 @@ i {
   font-size: 22px;
   margin-left: 1%;
 }
-
+/* positions icons twitter, and instagram (these icons were an exception...) */
 .fa-instagram:before, .fa-twitter:before {
   position: relative;
   right: 6px;
@@ -392,7 +395,7 @@ i {
     h1 {
       color: rgb(44,106,138);
       font-family: 'Prumo Banner Light';
-      font-size: 1.70em;
+      font-size: 1.5em;
       font-size-adjust: 0.35;
       width: 100%;
     }
@@ -463,7 +466,7 @@ i {
     }
     /* Image blocks flex container */
     /* BLOCK 4 */
-    .three-blocks-flex{
+    .image-block-flex{
       width: 88%;
       display: flex;
       flex-direction: column;
@@ -481,21 +484,21 @@ i {
 
     .block-1 {
       max-width: inherit;
-      width: 85%;
+      width: 95%;
       text-align: center;
       margin: auto;
     }
 
     .block-2 {
       max-width: inherit;
-      width: 85%;
+      width: 95%;
       text-align: center;
       margin: auto;
     }
 
     .block-3 {
       max-width: inherit;
-      width: 85%;
+      width: 95%;
       text-align: center;
       margin: auto;
 
