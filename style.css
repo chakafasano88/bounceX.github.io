@@ -402,9 +402,9 @@ i {
 
     /* Styling for reminder text */
     #reminder-text{
-      width: 66%;
-      margin-left: 15%;
-      margin-right: 15%;
+      width: 80%;
+      margin-left: 10%;
+      margin-right: 10%;
       margin-top: 5%;
       color: #817B73;
       font-size: .62em;
@@ -719,7 +719,6 @@ i {
       display: flex;
       justify-content: flex-start;
       width: 90%;
-      border: 1px solid  blue;
     }
 
     .bottom-tablet-nav-container2 {
